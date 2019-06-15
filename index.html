@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>HAPPY BIRTHDAY</title>
+    <script src="http://code.jquery.com/jquery.min.js"></script>
+    <script src="http://zeptojs.com/zepto.min.js"></script>
+    <link
+      href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Baloo+Da&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="js/vegas.min.css" />
+    <link rel="stylesheet" href="main.css" />
+    <script src="js/vegas.min.js"></script>
+    <script type="text/javascript">
+      $(function() {
+        var images = [];
+
+        for (var i = 1; i < 60; i++) {
+          images = [
+            ...images,
+            {
+              src: `images/${i}.jpg`
+            }
+          ];
+        }
+
+        $("body").vegas({
+          shuffle: true,
+          slides: images,
+          overlay: true
+        });
+      });
+    </script>
+  </head>
+
+  <body class="main" style="margin:0 8px!important;">
+    <div class="header">
+      <div class="heaader-menu-left">
+        <i class="fas fa-paw paw"></i>
+      </div>
+      <div class="heaader-menu-right">
+        <div class="heaader-menu-itme" style="padding-top:0.2rem;">
+          <a href="./about.html">
+            about
+          </a>
+        </div>
+        <div class="heaader-menu-itme">
+          <a href="https://twitter.com/mitsubisi" target="_blank">
+            <i class="fab fa-twitter-square twitter"></i>
+            twitter
+          </a>
+        </div>
+      </div>
+    </div>
+
+    <div class="container">
+      <div>
+        <i class="fas fa-birthday-cake cake"></i>
+      </div>
+      <div class="sub-title">HAPPY BIRTHDAY</div>
+
+      <div class="title">
+        NEKO CHAN
+      </div>
+
+      <div class="button">
+        see amazon wish list
+      </div>
+    </div>
+    <div class="footer">
+      @2019 mitshubasi
+    </div>
+  </body>
+</html>

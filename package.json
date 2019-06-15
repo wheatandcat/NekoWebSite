@@ -1,0 +1,22 @@
+{
+  "name": "nekowebsite",
+  "version": "1.0.0",
+  "description": "猫のwebサイト",
+  "main": "index.js",
+  "scripts": {
+    "start": "serve -s"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/wheatandcat/NekoWebSite.git"
+  },
+  "author": "wheatandcat",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/wheatandcat/NekoWebSite/issues"
+  },
+  "homepage": "https://github.com/wheatandcat/NekoWebSite#readme",
+  "dependencies": {
+    "serve": "^11.0.1"
+  }
+}
