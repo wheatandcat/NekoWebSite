@@ -84,6 +84,10 @@ a {
   border-radius: 2.5rem;
 }
 
+.button:hover {
+  background-color: rgba(255, 255, 255, 0.2);
+}
+
 .container {
   display: flex;
   flex-direction: column;
